@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coro ExNovo: Conciertos, eventos, espectaculos, calendario, horarios">
+    <meta name="author" content="">
+
+    <title>Conciertos - Coro ExNovo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+	<link rel="shortcut icon" href="/favicon.png" type="image/png">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+    <script src="js/bootstrap.js"></script>
+    <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-52017841-1', 'esy.es');
+	ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script>
+(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="brand"><img class="img-responsive img-border img-left" style="max-height:100px;" src="img/logex.jpg" alt="">Coro ExNovo</div>
+    <div class="address-bar">ExNovo | Colegio Mayor Universitario Luis Vives | Calle Francisco Suárez 7, Madrid 28036 | 628 472 323</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="img-responsive img-border img-left" style="max-height:30px;" src="img/logex.jpg" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a>
+                    </li>
+                    <li><a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li><a href="eventos.html">Eventos</a>
+                    </li>
+                    <li><a href="director.html">Director</a>
+                    </li>
+                    <li><a href="contact.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">                
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td height="83" align="left" valign="top">
+                                                                <h2 class="welcomeTxt">
+                                                                    Próximos Conciertos<br /><br /><br />
+                                                                </h2>
+                                                                <script>
+                                                                    $(function () {
+                                                                        $("#1").click(function (event) {
+                                                                            event.preventDefault();
+                                                                            $("#21Marzo").empty();
+                                                                            $("#22Marzo").css('display', 'none');
+																			$("#25Marzo").css('display', 'none');
+                                                                            $("#28Marzo").css('display', 'none');
+                                                                            $("#21Marzo").css('display', 'block');
+                                                                            $("#21Marzo").html('<h1>Madrid 18:45</h1><p>Real Iglesia Parroquial de San Ginés de Arlés</p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.320084157145!2d-3.7088383518201105!3d40.416381340198306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xada065acd7c05d24!2sIglesia+de+San+Gin%C3%A9s+de+Arl%C3%A9s!5e0!3m2!1ses!2ses!4v1415281886851" width="600" height="450" frameborder="0" style="border:0"></iframe>');
+                                                                        });
+                                                                    });
+                                                                    $(function () {
+                                                                        $("#2").click(function (event) {
+                                                                            event.preventDefault();
+                                                                            $("#22Marzo").empty();
+                                                                            $("#21Marzo").css('display', 'none');
+																			$("#25Marzo").css('display', 'none');
+                                                                            $("#28Marzo").css('display', 'none');
+                                                                            $("#22Marzo").css('display', 'block');
+                                                                            $("#22Marzo").html('<h1>Madrid 20:15</h1><p>Real Iglesia Parroquial de Santiago y San Juan Bautista</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6450888839468!2d-3.711682281086208!3d40.416712548193566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228799edfb275%3A0x8570967bef441fff!2sParroquia+Santiago+y+San+Juan!5e0!3m2!1ses!2ses!4v1422464631645" width="600" height="450" frameborder="0" style="border:0"></iframe>');
+                                                                        });
+                                                                    });
+																	$(function () {
+                                                                        $("#3").click(function (event) {
+                                                                            event.preventDefault();
+                                                                            $("#25Marzo").empty();
+                                                                            $("#22Marzo").css('display', 'none');
+                                                                            $("#21Marzo").css('display', 'none');
+																			$("#28Marzo").css('display', 'none');
+                                                                            $("#25Marzo").css('display', 'block');
+                                                                            $("#25Marzo").html('<h1>Madrid 19:45</h1><p>Iglesia de San Ildefonso</p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6074.648922883128!2d-3.703753214366191!3d40.42381379228016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42288812e6fdaf%3A0xcd16d9b90e8f76cd!2sCalle+Col%C3%B3n%2C+16%2C+28004+Madrid!5e0!3m2!1ses!2ses!4v1427102780611" width="600" height="450" frameborder="0" style="border:0"></iframe>');
+                                                                        });
+                                                                    });
+                                                                    $(function () {
+                                                                        $("#4").click(function (event) {
+                                                                            event.preventDefault();
+                                                                            $("#28Marzo").empty();
+                                                                            $("#22Marzo").css('display', 'none');
+                                                                            $("#21Marzo").css('display', 'none');
+																			$("#25Marzo").css('display', 'none');
+                                                                            $("#28Marzo").css('display', 'block');
+                                                                            $("#28Marzo").html('<h1>Toledo 20:00</h1><p>Convento de San Antonio de Padua</p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3062.789089483199!2d-4.029208903164576!3d39.85655933921987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0ba77ce0b78d%3A0x4d5b942ff437265b!2sCalle+Santo+Tome%2C+27%2C+45002+Toledo!5e0!3m2!1ses!2ses!4v1422464710764" width="600" height="450" frameborder="0" style="border:0"></iframe>');
+                                                                        });
+                                                                    });
+                                                                </script>
+                                                                <ul id="tabs" class="nav nav-pills" data-tabs="tabs">
+                                                                    <li class="active"><a href="#21Marzo" data-toggle="tab" id="1">21 Marzo</a></li>
+                                                                    <li><a href="#22Marzo" data-toggle="tab" id="2">22 Marzo</a></li>
+																	<li><a href="#25Marzo" data-toggle="tab" id="3">25 Marzo</a></li>
+																	<li><a href="#28Marzo" data-toggle="tab" id="4">28 Marzo</a></li>
+                                                                </ul>
+                                                                <div id="my-tab-content" class="tab-content">
+                                                                    <div class="tab-pane active" id="21Marzo">
+                                                                        <h1>Madrid 18:45</h1>
+                                                                        <p>
+                                                                            Real Iglesia Parroquial de San Ginés de Arlés
+                                                                        </p>
+                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.320084157145!2d-3.7088383518201105!3d40.416381340198306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xada065acd7c05d24!2sIglesia+de+San+Gin%C3%A9s+de+Arl%C3%A9s!5e0!3m2!1ses!2ses!4v1415281886851" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                                                                        <!--<a class="btn btn-info pull-left" data-toggle="modal" data-target="#ModalPrograma"><span class="glyphicon glyphicon-search"></span>&nbsp;Ver Programa del concierto</a>
+                                                                        <div class="modal fade" id="ModalPrograma">
+                                                                            <div class="modal-dialog">
+                                                                                <div class="modal-content">
+                                                                                    <div class="modal-header">
+                                                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                                                        <h4 class="modal-title">Programa de Navidad</h4>
+                                                                                    </div>
+                                                                                    <div class="modal-body">
+                                                                                        <p>
+																							<strong>PROGRAMA DE NAVIDAD 2014</strong>
+																						</p>
+																						<p>
+																							<strong> I</strong>
+																						</p>
+																						<p>
+																							<strong> </strong>
+																						</p>
+																						<p>
+																							<strong> </strong>
+																							J. Arcadelt (1504-1568) AVE MARIA<strong> </strong>
+																						</p>
+																						<p>
+																							F. Guerrero (1528-1599) NIÑO DIOS D'AMOR HERIDO
+																						</p>
+																						<p>
+																							H.L. Hassler (1564-1612) DIXIT MARIA
+																						</p>
+																						<p>
+																							CANTATE DOMINO
+																						</p>
+																						<p>
+																							T.L. de Victoria (1548-1611) O MAGNUM MYSTERIUM
+																						</p>
+																						<p>
+																							M. Praetorius (1571-1621) ES IST EIN ROS ENTSPRUNGEN
+																						</p>
+																						<p>
+																							J. Rheinberger (1839-1901) RORATE COELI
+																						</p>
+																						<p>
+																							C. Saint-Saëns (1835-1921) TOLLITE HOSTIAS
+																						</p>
+																						<p>
+																							<strong>II</strong>
+																						</p>
+																						<p>
+																							<strong> </strong>
+																						</p>
+																						<p>
+																							<strong> </strong>
+																							P. Donosita (1886-1956) OI BETHLEEM
+																						</p>
+																						<p>
+																							F. García Muñoz (Arm.) VILLANCICO DE LA VERA
+																						</p>
+																						<p>
+																							K. Davis (Arm. A. Bartolomé) EL TAMBORILERO
+																						</p>
+																						<p>
+																							O. Martí (Arm.) CHIQUIRRIQUITÍN
+																						</p>
+																						<p>
+																							F. Civil (Arm.) HACIA BELÉN VA UNA BURRA
+																						</p>
+																						<p>
+																							A. Carrión (Arm.) LOS PECES EN EL RÍO
+																						</p>
+																						<p>
+																							F.A. Gevaert (1828-1908) LE MESSAGE DES ANGES
+																						</p>
+																						<p>
+																							J. Reading ADESTE FIDELES
+																						</p>                                                                                        
+                                                                                    </div>
+                                                                                    <div class="modal-footer">
+                                                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>                                                                                        
+                                                                                    </div>
+                                                                                </div>																			
+                                                                            </div><!-- /.modal-dialog
+                                                                        </div><!-- /.modal -->
+                                                                    </div>
+                                                                    <div class="tab-pane" id="22Marzo">
+
+																	</div>
+																	<div class="tab-pane" id="25Marzo">
+
+																	</div>
+																	<div class="tab-pane" id="28Marzo">
+
+																	</div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>                                                        
+                                                    </table>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="copy">&copy; Copyright Coro Ex Novo 2015. Todos los derechos reservados.</p>
+                    <p class="copy">Calle Francisco Suárez nº7, 28036 Madrid. Tlfno: 628472323. E-Mail: <a href="mailto:coroexnovo@gmail.com" target="_blank">coroexnovo@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

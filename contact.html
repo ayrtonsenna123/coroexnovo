@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coro ExNovo: Unete a nosotros, contactanos, telefono, email">
+    <meta name="author" content="">
+
+    <title>¡Únete a nosotros! - Coro ExNovo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+	<link href="css/bootstrap-dialog.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-datetimepicker.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+		
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+    <script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap-dialog.js"></script>    
+    <script type="text/javascript" src="js/moment.js"></script>    
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="js/lang/es.js"></script>           
+        
+	<script>
+        moment.lang("es");
+	    var AlertaClasica = function (Titulo, Cuerpo) {
+        BootstrapDialog.show({
+            title: Titulo,
+            message: Cuerpo,
+            type: 'type-info',
+            cssClass: 'modal-header',
+            draggable: true,
+            buttons: [
+                {
+                    label: 'Cerrar',
+                    action: function (BootstrapDialog)
+                    {
+                        BootstrapDialog.close();
+                    }
+                }
+            ]
+        });
+	   }
+</script>
+    
+</head>
+
+<body>
+
+    <div class="brand"><img class="img-responsive img-border img-left" style="max-height:100px;" src="img/logex.jpg" alt="">Coro ExNovo</div>
+    <div class="address-bar">ExNovo | Colegio Mayor Universitario Luis Vives | Calle Francisco Suárez 7, Madrid 28036 | 628 472 323</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="img-responsive img-border img-left" style="max-height:30px;" src="img/logex.jpg" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a>
+                    </li>
+                    <li><a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li><a href="eventos.html">Eventos</a>
+                    </li>
+                    <li><a href="director.html">Director</a>
+                    </li>
+                    <li><a href="contact.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Contáctanos <strong>Coro ExNovo</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-8">
+                    <!-- iframe del google maps -->                    
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6070.926088133914!2d-3.68459!3d40.46502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229179ac7f701%3A0xb6153ed0bd1481c5!2sCalle+Francisco+Su%C3%A1rez%2C+7%2C+28036+Madrid%2C+Espa%C3%B1a!5e0!3m2!1ses!2sus!4v1423824952927" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <div class="col-md-4">
+                    <p>Teléfono: <strong>628 472 323 (Julio)</strong>
+                    </p>
+                    <p>Email: <strong>coroexnovo@gmail.com</strong>
+                    </p>
+                    <p>Dirección: <strong>Colegio Mayor Universitario Luis Vives<br>Calle Francisco Suárez 7<br>Madrid 28036</strong>
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Formulario de <strong>Contacto</strong>
+                    </h2>
+                    <hr>
+                    <p>Para informarte, rellena el formulario y nos pondremos en contacto contigo.</p>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-4">
+                                <label>Nombre</label>
+                                <input id="txtNombre" type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>E-Mail</label>
+                                <input id="txtEmail" type="email" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Teléfono</label>
+                                <input id="txtTelefono" type="tel" class="form-control">
+                            </div>
+                            <!--<div class="form-group col-lg-4">
+                                <label>Fecha / Hora</label>
+                                <div class="input-group date" id="datetimepicker1">
+                                    <input id="txtFecha" type="text" class="form-control" data-date-format="DD/MM/YYYY" data-time-format="hh:mm" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                            <script type="text/javascript">                                
+                                $(function () {
+                                    $('#datetimepicker1').datetimepicker({ language: 'es', minuteStepping: 15 });
+                                });
+                            </script>
+                            <div class="form-group col-lg-4">
+                                <label>Nº personas</label>
+                                <input id="txtPersonas" type="number" class="form-control">
+                            </div>-->
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-12">
+                                <label>Mensaje</label>
+                                <textarea id="txtMensaje" class="form-control" rows="6"></textarea>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="button" id="btnEnviar" class="btn btn-default">Enviar</button>
+								<script>
+									(function(){
+										$("#btnEnviar").click(function() {
+									 
+											var nombre = $("#txtNombre").val();
+												email = $("#txtEmail").val();
+												validacion_email = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
+												telefono = $("#txtTelefono").val();												
+												//fecha = $("#txtFecha").val().toString();
+												//personas = $("#txtPersonas").val().toString();
+												mensaje = $("#txtMensaje").val();
+									 
+											if (nombre == "") {
+												$("#txtNombre").focus();
+												return false;
+											}else if(email == "" || !validacion_email.test(email)){
+												$("#txtEmail").focus();    
+												return false;
+											}else if(telefono == ""){
+												$("#txtTelefono").focus();
+												return false;
+											}else if(mensaje == ""){
+												$("#txtMensaje").focus();
+												return false;
+											}else{													
+													var datos = 'nombre='+ nombre + '&email=' + email + '&telefono=' + telefono + '&mensaje=' + mensaje;
+													$.ajax({
+														type: "POST",
+														url: "proceso.php",
+														data: datos,
+														success: function() {
+															AlertaClasica('Envío correcto', 'Tu consulta ha sido recibida. En breve nos pondremos en contacto contigo.');															
+														},
+														error: function() {
+															AlertaClasica('Envío incorrecto', 'Tu consulta no ha podido ser enviada en este momento. Si persiste el error, puedes enviarnos tu consulta a través de la dirección de e-mail coroexnovo@gmail.com con tus datos y nos pondremos en contacto contigo lo antes posible.');															
+														}
+													});
+													return false;
+											}									 
+										});
+									})();
+								</script>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="copy">&copy; Copyright Coro Ex Novo 2015. Todos los derechos reservados.</p>
+                    <p class="copy">Calle Francisco Suárez nº7, 28036 Madrid. Tlfno: 628472323. E-Mail: <a href="mailto:coroexnovo@gmail.com" target="_blank">coroexnovo@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
