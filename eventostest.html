@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -30,6 +30,15 @@
 	ga('require', 'displayfeatures');
     ga('send', 'pageview');
 
+    </script>
+    <script>
+  				var url =  "https://www.googleapis.com/calendar/v3/calendars/69fjd9k1h9n7712ip0bc9iucgo%40group.calendar.google.com/events?singleEvents=true&orderBy=startTime&alwaysIncludeEmail=false&showDeleted=false&key=AIzaSyAl9hYWITn4s7MLBOGMt5dsdIAIQzg_Oxw";
+  				$.getJSON(url, function(items) {
+  					for(i in items) {
+  						item = items[i];
+  						  alert(item);
+  					}
+  				}                                                                    
     </script>
 </head>
 
@@ -82,52 +91,44 @@
 
         <div class="row">
             <div class="box">                
-                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                                        <tr>
-                                                            <td height="83" align="left" valign="top">
-                                                                <h2 class="welcomeTxt">
-                                                                    Próximos Conciertos<br /><br /><br />
-                                                                </h2>
-                                                                <script>
-																	var url =  "https://www.googleapis.com/calendar/v3/calendars/69fjd9k1h9n7712ip0bc9iucgo%40group.calendar.google.com/events?singleEvents=true&orderBy=startTime&alwaysIncludeEmail=false&showDeleted=false&key=AIzaSyAl9hYWITn4s7MLBOGMt5dsdIAIQzg_Oxw";
-																	$.getJSON(url, function(items) {
-																		for(i in items) {
-																			item = items[i];
-																			
-																		}
-																	}                                                                    
-                                                                </script>
-                                                                <ul id="tabs" class="nav nav-tabs" role="tablist">
-                                                                    <li role="presentation" class="active"><a href="#21Marzo" data-toggle="tab" role="tab" id="1" aria-controls="21Marzo" >21 Marzo</a></li>
-                                                                    <li role="presentation"><a href="#22Marzo" data-toggle="tab" role="tab" id="2" aria-controls="22Marzo" >22 Marzo</a></li>
-																	<li role="presentation"><a href="#28Marzo" data-toggle="tab" role="tab" id="3" aria-controls="28Marzo" >28 Marzo</a></li>
-                                                                </ul>
-                                                                <div id="my-tab-content" class="tab-content">
-                                                                    <div class="tab-pane fade in active" role="tabpanel" id="21Marzo">
-                                                                        <h1>Madrid 18:45</h1>
-                                                                        <p>
-                                                                            Real Iglesia Parroquial de San Ginés de Arlés
-                                                                        </p>
-                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.320084157145!2d-3.7088383518201105!3d40.416381340198306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xada065acd7c05d24!2sIglesia+de+San+Gin%C3%A9s+de+Arl%C3%A9s!5e0!3m2!1ses!2ses!4v1415281886851" width="600" height="450" frameborder="0" style="border:0"></iframe>                                                                                                                                                
-                                                                    </div>
-                                                                    <div class="tab-pane fade" role="tabpanel" id="22Marzo">
-																		<h1>Madrid 20:15</h1>
-																		<p>
-																			Real Iglesia Parroquial de Santiago y San Juan Bautista
-																		</p>
-																		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6450888839468!2d-3.711682281086208!3d40.416712548193566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228799edfb275%3A0x8570967bef441fff!2sParroquia+Santiago+y+San+Juan!5e0!3m2!1ses!2ses!4v1422464631645" width="600" height="450" frameborder="0" style="border:0"></iframe>
-																	</div>
-																	<div class="tab-pane fade" role="tabpanel" id="28Marzo">
-																		<h1>Toledo 20:00</h1>
-																		<p>
-																			Convento de San Antonio de Padua
-																		</p>
-																		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3062.789089483199!2d-4.029208903164576!3d39.85655933921987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0ba77ce0b78d%3A0x4d5b942ff437265b!2sCalle+Santo+Tome%2C+27%2C+45002+Toledo!5e0!3m2!1ses!2ses!4v1422464710764" width="600" height="450" frameborder="0" style="border:0"></iframe>
-																	</div>
-                                                                </div>
-                                                            </td>
-                                                        </tr>                                                        
-                                                    </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="83" align="left" valign="top">
+                            <h2 class="welcomeTxt">
+                                Próximos Conciertos<br /><br /><br />
+                            </h2>
+                            
+                            <ul id="tabs" class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#21Marzo" data-toggle="tab" role="tab" id="1" aria-controls="21Marzo" >21 Marzo</a></li>
+                                <li role="presentation"><a href="#22Marzo" data-toggle="tab" role="tab" id="2" aria-controls="22Marzo" >22 Marzo</a></li>
+																<li role="presentation"><a href="#28Marzo" data-toggle="tab" role="tab" id="3" aria-controls="28Marzo" >28 Marzo</a></li>
+                            </ul>
+                            <div id="my-tab-content" class="tab-content">
+                                <div class="tab-pane fade in active" role="tabpanel" id="21Marzo">
+                                    <h1>Madrid 18:45</h1>
+                                    <p>
+                                        Real Iglesia Parroquial de San Ginés de Arlés
+                                    </p>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6075.320084157145!2d-3.7088383518201105!3d40.416381340198306!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xada065acd7c05d24!2sIglesia+de+San+Gin%C3%A9s+de+Arl%C3%A9s!5e0!3m2!1ses!2ses!4v1415281886851" width="600" height="450" frameborder="0" style="border:0"></iframe>                                                                                                                                                
+                                </div>
+                                <div class="tab-pane fade" role="tabpanel" id="22Marzo">
+																	<h1>Madrid 20:15</h1>
+																	<p>
+																		Real Iglesia Parroquial de Santiago y San Juan Bautista
+																	</p>
+																	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6450888839468!2d-3.711682281086208!3d40.416712548193566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228799edfb275%3A0x8570967bef441fff!2sParroquia+Santiago+y+San+Juan!5e0!3m2!1ses!2ses!4v1422464631645" width="600" height="450" frameborder="0" style="border:0"></iframe>
+																</div>
+																<div class="tab-pane fade" role="tabpanel" id="28Marzo">
+																	<h1>Toledo 20:00</h1>
+																	<p>
+																		Convento de San Antonio de Padua
+																	</p>
+																	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3062.789089483199!2d-4.029208903164576!3d39.85655933921987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0ba77ce0b78d%3A0x4d5b942ff437265b!2sCalle+Santo+Tome%2C+27%2C+45002+Toledo!5e0!3m2!1ses!2ses!4v1422464710764" width="600" height="450" frameborder="0" style="border:0"></iframe>
+																</div>
+                            </div>
+                        </td>
+                    </tr>                                                        
+                </table>
             </div>
         </div>
 
