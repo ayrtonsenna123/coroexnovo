@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coro ExNovo: Coral, cantantes, conciertos y eventos">
+    <meta name="author" content="">
+
+    <title>Coro Ex Novo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/sweet-alert.css" rel="stylesheet">
+  	<link rel="shortcut icon" href="/favicon.png" type="image/png">
+  	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  	
+  	<script src="js/bootstrap.js"></script>
+  	<script src="js/sha256.js"></script>
+  	<script src="js/sweet-alert.min.js"></script>
+  	<script src="js/jquery.session.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-49111687-1', 'auto');
+      ga('send', 'pageview');
+  
+    </script>
+    
+<script>
+  $(document).ready(function() {
+    if($.session.get('id') != 'd0c9b61e688c2d6ba2c5f4b0d1034672367e33fbc84eb19d57ab8393e9980224'){
+      window.location.replace('http://www.coroexnovo.com/multimedia.html');
+    }
+});
+</script>
+</head>
+
+<body>
+    
+    <div class="brand"><img class="img-responsive img-border img-left" style="max-height:100px;" src="img/logex.jpg" alt="">Coro Ex Novo</div>
+    <div class="address-bar">Ex Novo | Colegio Mayor Universitario Luis Vives | Calle Francisco Suárez 7, Madrid 28036</div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="img-responsive img-border img-left" style="max-height:30px;" src="img/logex.jpg" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inicio</a>
+                    </li>
+                    <li><a href="nosotros.html">Nosotros</a>
+                    </li>
+					<li><a href="director.html">Director</a>
+                    </li>
+                    <li><a href="eventos.html">Eventos</a>
+                    </li>
+                    <li><a href="contact.html">Contáctanos</a>
+                    </li>
+                    <li><a href="multimedia.html">Multimedia</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <h1>
+                        <span class="brand-name">Multimedia Privado</span>
+                    </h1>
+                    <hr class="tagline-divider">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <hr>
+                    <h2 class="intro-text text-center">Listado de <strong>Enlaces</strong>
+                    </h2>
+                    <hr>
+                    <div class="col-md-12 text-center">
+						<p>Partituras, midis, documentos y ensayos</p>
+						<div class="col-md-6 text-center" style="padding-bottom: 30px;">
+							<a href="https://www.dropbox.com/sh/2z53b21xo3cvxn5/AABtJZ6QsOQYpJyefj8L0CEEa?dl=0" target="_blank">
+								<img class="img-responsive center-block" src="img/dropbox.png" />
+							</a>
+						</div>						
+						<div class="col-md-6 text-center" style="padding-bottom: 30px;">
+							<a href="https://drive.google.com/folderview?id=0ByHb0EH85LadcDlTR0FtUFEzdFk&usp=sharing" target="_blank">
+								<img class="img-responsive center-block" src="img/gdrive.png" />
+							</a>
+						</div>						
+						<hr>
+						<p>Audios, fotos y vídeos</p>
+						<div class="col-md-12 text-center">							
+							<a href="https://mega.nz/#F!9pNBmJLT!ja7kBgzBzXyKUm-6PB6mPQ" target="_blank">
+								<img class="img-responsive center-block" src="img/mega.png" />
+							</a>
+						</div>					
+                    </div>
+                    <hr class="visible-xs">
+                </div>
+            </div>
+        </div>
+        
+        <!--<div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">¿Eres miembro de <strong>Exnovo</strong>?
+                      <small>Accede con la contraseña a los archivos privados</small>
+                    </h2>
+                    <a class="btn btn-success pull-right" onclick="
+                      swal({   
+                          title: 'Acceso Privado',   
+                          text: 'Introduzca la contraseña:',   
+                          type: 'input',   
+                          showCancelButton: true,
+                          closeOnConfirm: false,   
+                          animation: 'slide-from-top'
+                        }, 
+                        function(inputValue){
+                          if (inputValue === false) 
+                            return false;      
+                          if (sha256_digest(inputValue) != 'd0c9b61e688c2d6ba2c5f4b0d1034672367e33fbc84eb19d57ab8393e9980224') {
+                            swal.showInputError('La contraseña no es correcta');
+                            return false   
+                          }
+                          swal('Acceso Correcto', '', 'success');
+                          $.session.clear();
+                          $.session.set('id', 'd0c9b61e688c2d6ba2c5f4b0d1034672367e33fbc84eb19d57ab8393e9980224');
+                        } 
+                      );
+                    "><span class="glyphicon glyphicon-log-in"></span>&nbsp;Área Privada</a>
+                    <script>
+                      var CheckPassword = function () 
+                      {
+                        
+                      }
+                    </script>
+                    <hr class="visible-xs">
+                </div>
+            </div>
+        </div>-->
+        
+    </div>
+    <!-- /.container -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="copy">&copy; Copyright Coro Exnovo <script>document.write(new Date().getFullYear())</script>. Todos los derechos reservados.</p>
+                    <p class="copy">Calle Francisco Suárez nº7, 28036 Madrid. E-Mail: <a href="mailto:coroexnovo@gmail.com" target="_blank">coroexnovo@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+    </script>
+	
+</body>
+
+</html>
