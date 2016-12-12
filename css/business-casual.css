@@ -38,7 +38,7 @@ hr {
 .navbar-nav {
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .img-full {
@@ -83,6 +83,17 @@ hr {
   margin: 0 auto 0;
 }
 
+.img-logo {
+  float: center;
+  margin: 0 auto 0;
+}
+
+.img-normal {
+  float: none;
+  margin: 0 auto 0;
+  width: 33%;
+}
+
 footer {
   background: #fff;
   background: rgba(255,255,255,0.9);
@@ -112,6 +123,16 @@ footer p {
 }
 
 .img-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.img-logo {
+  float: center;
+  margin: 25px 25px 25px 25px;
+}
+
+.img-normal {
   float: left;
   margin-right: 25px;
 }
@@ -160,7 +181,7 @@ footer p {
   margin: 0 auto;
   display: table;
   table-layout: fixed;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 }
@@ -186,4 +207,18 @@ https://developers.facebook.com/docs/reference/plugins/like-box/
 /* To fill the container and nothing else */
 .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
   width: 100% !important;
+}
+
+.concierto{
+
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
 }
